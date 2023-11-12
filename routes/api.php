@@ -23,3 +23,7 @@ Route::get('/addresses/{id}', [AddressController::class, 'findOne']);
 
 //Inserir um Novo usuario
 Route::post('/addresses', [AddressController::class, 'create']);
+
+
+//
+Route::post('/addresses', [AddressController::class, 'create']);
